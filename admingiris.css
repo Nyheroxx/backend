@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/505/199/579/water-underwater-clouds-dark-wallpaper-795349a65c6d180abb5b55288d05b893.jpg);
+}
+
+.section-admingiris{
+    align-items: center;
+    text-align: center;
+    padding: 200px;
+}
+
+.section-admingiris form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-admingiris form input{
+    height: 30px;
+    width: 400px;
+    margin-left: 350px;
+    border-radius: 12px;
+    border: 3px solid aqua;
+    font-family: "Poppins", serif;
+    background-color: rgb(170, 170, 170);
+    color: black;
+    font-weight: bold;
+}
+
+
+.section-admingiris h2{
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    color: white;
+    font-size: 32px;
+    border-bottom: 5px solid aqua;
+    display: inline-block;
+}
+
+.section-admingiris form button{
+    border-radius: 12px;
+    height: 60px;
+    width: 250px;
+    margin-left: 430px;
+    background-color: gray;
+    border: 2px solid aqua;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+#message{
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    color: red;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-admingiris {
+        padding: 100px 20px; /* Padding değerlerini azalt */
+    }
+
+    .section-admingiris form input {
+        width: 80%; /* Genişliği yüzde olarak ayarla */
+        margin-left: 10%; /* Margin değerlerini azalt ve ortala */
+    }
+
+    .section-admingiris form button {
+        width: 60%; /* Buton genişliğini yüzde olarak ayarla */
+        margin-left: 20%; /* Margin değerlerini azalt ve ortala */
+    }
+
+    .section-admingiris h2 {
+        font-size: 28px; /* Başlık font boyutunu küçült */
+    }
+
+    #message {
+        font-size: 14px; /* Mesaj font boyutunu küçült */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section-admingiris {
+        padding: 50px 10px; /* Padding değerlerini daha da azalt */
+    }
+
+    .section-admingiris form input {
+        width: 90%; /* Genişliği daha da artır */
+        margin-left: 5%; /* Margin değerlerini daha da azalt ve ortala */
+        height: 25px; /* Yüksekliği azalt */
+    }
+
+    .section-admingiris form button {
+        width: 80%; /* Buton genişliğini daha da artır */
+        margin-left: 10%; /* Margin değerlerini daha da azalt ve ortala */
+        height: 50px; /* Buton yüksekliğini azalt */
+    }
+
+    .section-admingiris h2 {
+        font-size: 24px; /* Başlık font boyutunu daha da küçült */
+    }
+
+    #message {
+        font-size: 12px; /* Mesaj font boyutunu daha da küçült */
+    }
+}

@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.section-teklif{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/505/199/579/water-underwater-clouds-dark-wallpaper-795349a65c6d180abb5b55288d05b893.jpg);
+    padding: 130px 80px;
+}
+
+.section-mesaj{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/505/199/579/water-underwater-clouds-dark-wallpaper-795349a65c6d180abb5b55288d05b893.jpg);
+    padding: 130px 130px;
+}
+
+.section-projeekle{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/505/199/579/water-underwater-clouds-dark-wallpaper-795349a65c6d180abb5b55288d05b893.jpg);
+    padding: 130px 130px;
+}
+
+.section-projeekle h2{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid aqua;
+}
+
+#addProjectForm{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    gap: 50px;
+}
+
+.section-projeekle input{
+    border-radius: 12px;
+    border: 2px solid aqua;
+    height: 50px;
+    width: 1000px;
+}
+
+.section-projeekle textarea{
+    border-radius: 12px;
+    border: 2px solid aqua;
+    height: 50px;
+    width: 1000px;
+}
+
+.section-projeekle button{
+    border-radius: 12px;
+    border: 2px solid aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: darkslategray;
+    transition: all 0.3s ease 0s;
+    height: 120px;
+}
+
+.section-mesaj h2{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid aqua;
+}
+
+.section-teklif h2{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid aqua;
+}
+
+
+
+.mesaj-item{
+    font-family: "Poppins", serif;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 100px 100;
+    border-radius: 12px;
+    border: 2px solid aqua;
+    background-color: lightslategray;
+    transition: all 0.3s ease 0s;
+    word-wrap: break-word; /* Uzun kelimeleri satır sonunda böler */
+    overflow-wrap: break-word; /* Uzun kelimeleri satır sonunda böler */
+    white-space: normal; /* Metnin normal şekilde sarılmasını sağlar */
+    max-width: 30%; /* İçeriğin genişliğini sınırlar */
+}
+
+.offer-item{
+    font-family: "Poppins", serif;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 45px;
+    border-radius: 12px;
+    border: 2px solid aqua;
+    background-color: lightslategray;
+    transition: all 0.3s ease 0s;
+}
+
+.offer-item button{
+    border-radius: 12px;
+    border: 2px solid aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: darkslategray;
+    transition: all 0.3s ease 0s;
+}
+
+.offer-item:hover{
+    transform: scale(1.10);
+    background-color: rgb(95, 108, 121);
+}
+
+
+.offer-item button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.offer-item span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offer-item strong{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mesaj-item strong{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mesaj-item b{
+    color: aqua;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-item b{
+    color: aqua;
+    font-weight: bold;
+}
+
+.admin-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px 200px;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/505/199/579/water-underwater-clouds-dark-wallpaper-795349a65c6d180abb5b55288d05b893.jpg);
+    background-size:cover;
+    transition: 0.3s all ease 0s;
+    background-position: center;
+}
+
+.bilgilendirme{
+    background-color: gray;
+    border-radius: 12px;
+    border: 5px solid aqua;
+    text-align: center;
+    margin: 150px 50px;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: aqua;
+    transition: all 0.3s ease 0s;
+}
+
+.bilgilendirme h2{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.bilgilendirme span{
+    color: red;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    background-color: black;
+}
+
+.bilgilendirme h3{
+    font-size: 50px;
+    color: gold;
+    font-family: "Dancing Script", serif;
+}
+
+.bilgilendirme:hover{
+    transform: scale(1.10);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    header{
+        background-color: rgb(40, 42, 47);
+    }
+
+    .logo {
+        margin: 40px;
+    }
+
+    .logo-name {
+        font-size: 26px;
+    }
+
+    .nav_links {
+        transition: all 0.5s ease-in-out 0s;
+        display: none;  /* Menü başlangıçta gizli */
+        flex-direction: column;
+        background-color: rgb(40, 42, 47);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0px 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav_links li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        color: aqua;
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+
+/* Aktif Menü Durumu */
+.nav_links.active {
+    display: flex;  
+}
+
+@media only screen and (max-width: 768px) {
+    .section-teklif,
+    .section-mesaj,
+    .section-projeekle {
+        padding: 250px 20px; /* Padding değerlerini azalt */
+    }
+
+    .section-projeekle h2,
+    .section-mesaj h2,
+    .section-teklif h2 {
+        font-size: 30px; /* Başlık font boyutunu küçült */
+    }
+
+    #addProjectForm {
+        padding: 20px; /* Form padding'ini azalt */
+        gap: 20px; /* Form elemanları arasındaki boşluğu azalt */
+    }
+
+    .section-projeekle input,
+    .section-projeekle textarea {
+        width: 100%; /* Genişliği tam ekran yap */
+        height: 40px; /* Yüksekliği azalt */
+    }
+
+    .section-projeekle button {
+        width: 100%; /* Buton genişliğini tam ekran yap */
+        height: 60px; /* Buton yüksekliğini azalt */
+    }
+
+    .mesaj-item,
+    .offer-item {
+        max-width: 100%; /* Genişliği tam ekran yap */
+        margin: 10px 0; /* Margin değerlerini azalt */
+        padding: 50px; /* Padding değerlerini azalt */
+    }
+
+    .admin-section {
+        padding: 100px 20px; /* Admin section padding'ini azalt */
+    }
+
+    .bilgilendirme {
+        margin: 50px 20px; /* Bilgilendirme kutusu margin'ini azalt */
+        font-size: 20px; /* Font boyutunu küçült */
+    }
+
+    .bilgilendirme h3 {
+        font-size: 30px; /* Başlık font boyutunu küçült */
+    }
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .section-teklif,
+    .section-mesaj,
+    .section-projeekle {
+        padding: 30px 10px; /* Padding değerlerini daha da azalt */
+    }
+
+    .section-projeekle h2,
+    .section-mesaj h2,
+    .section-teklif h2 {
+        font-size: 24px; /* Başlık font boyutunu daha da küçült */
+    }
+
+    #addProjectForm {
+        padding: 10px; /* Form padding'ini daha da azalt */
+        gap: 10px; /* Form elemanları arasındaki boşluğu daha da azalt */
+    }
+
+    .section-projeekle input,
+    .section-projeekle textarea {
+        height: 35px; /* Yüksekliği daha da azalt */
+    }
+
+    .section-projeekle button {
+        height: 50px; /* Buton yüksekliğini daha da azalt */
+    }
+
+    .mesaj-item,
+    .offer-item {
+        padding: 15px; /* Padding değerlerini daha da azalt */
+    }
+
+    .admin-section {
+        padding: 30px 10px; /* Admin section padding'ini daha da azalt */
+    }
+
+    .bilgilendirme {
+        margin: 30px 10px; /* Bilgilendirme kutusu margin'ini daha da azalt */
+        font-size: 18px; /* Font boyutunu daha da küçült */
+    }
+
+    .bilgilendirme h3 {
+        font-size: 24px; /* Başlık font boyutunu daha da küçült */
+    }
+}

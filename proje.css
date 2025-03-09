@@ -1,0 +1,179 @@
+.section-proje{
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/505/199/579/water-underwater-clouds-dark-wallpaper-795349a65c6d180abb5b55288d05b893.jpg);
+}
+
+#projectsList{
+    padding: 210px 70px;
+}
+
+.projelerimm{
+    background-color: none;
+    display: inline-block;
+    transform: translate(630px ,150px);
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    border-bottom: 5px solid aqua;
+}
+
+.kutu{
+    word-wrap: break-word; /* Uzun kelimeleri satır sonunda böler */
+    overflow-wrap: break-word; /* Uzun kelimeleri satır sonunda böler */
+    white-space: normal; /* Metnin normal şekilde sarılmasını sağlar */
+    max-width: 30%; /* İçeriğin genişliğini sınırlar */
+    margin-bottom: 50px;
+    margin-left: 40px;
+    flex-direction: row;
+    padding: 70px 50px;
+    border: 1px solid aqua;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.5s all ease 0s;
+    background-color: rgb(47, 50, 56);
+    display: inline-block ;
+}
+
+.offer-panel input{
+    border-radius: 12px;
+    height: 50px;
+    width: 240px;
+    border: 2px solid aqua;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+}
+
+.kutu button{
+    margin-left: 5px;
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    border: 2px solid aqua;
+    background-color: rgb(64, 68, 75);
+    padding: 10px;
+    margin-bottom: 5px;
+    justify-content: center;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.kutu button:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 40px aqua;
+    cursor: pointer;
+    background-color: rgb(41, 44, 48);
+}
+
+
+.kutu img{
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+}
+
+.kutu:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 40px aqua;
+    cursor: pointer;
+    background-color: rgb(65, 69, 77);
+}
+
+.kutu h3{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Poppins", serif;
+}
+
+.kutu p{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .offer-panel input{
+        height: 50px;
+        width: 150px;
+    }
+
+    #projectsList {
+        padding: 100px 20px; /* Padding değerlerini azalt */
+    }
+
+    .projelerimm {
+        transform: translate(0, 0); /* Transform değerini sıfırla */
+        font-size: 28px; /* Başlık font boyutunu küçült */
+        text-align: center; /* Başlığı ortala */
+        margin-bottom: 20px; /* Alt boşluğu ayarla */
+    }
+
+    .kutu {
+        max-width: 45%; /* Genişliği artır */
+        margin-left: 2.5%; /* Margin değerlerini azalt ve ortala */
+        padding: 30px 20px; /* Padding değerlerini azalt */
+    }
+
+    .kutu img {
+        height: 100px; /* Resim yüksekliğini azalt */
+        width: 100px; /* Resim genişliğini azalt */
+    }
+
+    .kutu h3 {
+        font-size: 24px; /* Başlık font boyutunu küçült */
+    }
+
+    .kutu p {
+        font-size: 14px; /* Paragraf font boyutunu küçült */
+    }
+
+    .kutu button {
+        width: 120px; /* Buton genişliğini azalt */
+        height: 40px; /* Buton yüksekliğini azalt */
+        font-size: 14px; /* Buton font boyutunu küçült */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .offer-panel input{
+        height: 50px;
+        width: 150px;
+    }
+
+    #projectsList {
+        padding: 50px 10px; /* Padding değerlerini daha da azalt */
+    }
+
+    .projelerimm {
+        font-size: 24px; /* Başlık font boyutunu daha da küçült */
+    }
+
+    .kutu {
+        max-width: 90%; /* Genişliği daha da artır */
+        margin-left: 5%; /* Margin değerlerini daha da azalt ve ortala */
+        padding: 20px 15px; /* Padding değerlerini daha da azalt */
+    }
+
+    .kutu img {
+        height: 100px; /* Resim yüksekliğini azalt */
+        width: 100px; /* Resim genişliğini daha da azalt */
+    }
+
+    .kutu h3 {
+        font-size: 20px; /* Başlık font boyutunu daha da küçült */
+    }
+
+    .kutu p {
+        font-size: 12px; /* Paragraf font boyutunu daha da küçült */
+    }
+
+    .kutu button {
+        width: 100px; /* Buton genişliğini daha da azalt */
+        height: 35px; /* Buton yüksekliğini daha da azalt */
+        font-size: 12px; /* Buton font boyutunu daha da küçült */
+    }
+}

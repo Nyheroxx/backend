@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <title>Admin|Panel</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <h2 class="logo-name">Enes Ocakçı</h2>
+        <p>"ADMİN PANELİ"</p>
+    </div>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="admin_dashboard.html" class="Anasayfa"><i class="ri-information-line"></i>Panel Bilgi</a></li>
+            <li><a href="teklifler.html" class="projelerim"><i class="ri-cup-line"></i>Teklifler</a></li>
+            <li><a href="mesajlar.html" class="Hakkimda"><i class="ri-chat-4-line"></i>Mesajlar</a></li>
+        </ul>
+    </nav>
+    <a href="projeekle.html" class="banaulas"><button class="banaulasbutton"><i class="ri-folder-add-line"></i>Proje Ekle</button></a>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        &#9776;
+    </div>
+</header>
+<section class="admin-section">
+  <script>
+    const admin = JSON.parse(localStorage.getItem("admin"));
+    if (!admin) {
+        window.location.href = "admin.html";
+    }
+</script>
+<div class="bilgilendirme">
+  <h3>Enes Ocakçı</h3>
+  <h2>Admin Panel Kullanım Bilgilendirmesi</h2>
+  <p>Bu admin panelinde proje ekleyebilir. Gönderilen mesajları görebilir. Gönderilen teklifleri görüp, onaylayıp, silebilirsiniz<br><br>
+    <span>UYARI: "Admin izni olmadan yapılan hertürlü değişim için dava açılıcaktır."</span>
+  </p>
+</div>
+</section>
+<footer>
+  <div class="copyright">
+      <p>&copy;Bu sitenin tüm hakları Enes Ocakçı tarafından saklıdır. Burası admin panelidir admin harici giriş kesinlikle yasaktır.</p>
+  </div>
+</footer>
+</body>
+<script src="scripts.js"></script>
+</html>
